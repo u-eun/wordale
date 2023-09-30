@@ -1,0 +1,34 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.keyboard-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  width: 45px;
+  height: 55px;
+  border-radius: 10%;
+  background-color: #eaeaea;
+  font-weight: bold;
+  font-size: 18px;
+}
+.keyboard-row .side-btn {
+  width: 65px;
+  font-size: 14px;
+}
+.keyboard-block:last-child img {
+  width: 25px;
+}
